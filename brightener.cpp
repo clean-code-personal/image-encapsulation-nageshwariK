@@ -1,6 +1,6 @@
 #include "brightener.h"
 
-ImageBrightener::ImageBrightener(const std::shared_ptr<Image>& inputImage) : m_inputImage(inputImage) {
+ImageBrightener::ImageBrightener(const std::shared_ptr<Image> inputImage) : m_inputImage(inputImage) {
 }
 
 int ImageBrightener::BrightenWholeImage() {

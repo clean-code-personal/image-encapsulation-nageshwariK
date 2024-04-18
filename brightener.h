@@ -5,6 +5,6 @@ class ImageBrightener {
 private:
 	const std::shared_ptr<Image>& m_inputImage;
 public:
-	ImageBrightener(const std::shared_ptr<Image>& inputImage);
+	ImageBrightener(const std::shared_ptr<Image> inputImage);
 	int BrightenWholeImage();
 };
